@@ -1,0 +1,32 @@
+html{
+     max-width: 1200px;
+     margin: auto;
+     background-color: rgb(255, 255, 255);
+ }
+ .body{
+    width: 50%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0;
+    background-color: blue;;
+    text-align: center;
+
+ }
+
+
+.fylke {
+     fill: rgb(21, 46, 116);
+     stroke: rgba(247, 244, 244, 0.171);
+    
+ }
+
+ .hoverfylker{
+     fill:rgb(54, 73, 80)
+ }
+
+ .tooltip {
+    position: absolute;
+    width: 100px;
+    height: 200px;
+    color: black;
+  }

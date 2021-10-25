@@ -1,0 +1,57 @@
+{ 
+    "46": {
+        "navn": "Vestland",
+      "kvinner": 2000,
+      "menn": 4000
+    },
+    "54": {
+        "navn": "Tromso og Finnmark",
+      "kvinner": 3450,
+      "menn": 25152
+    },
+    "18": {
+        "navn": "Nordland",
+      "kvinner": 3424,
+      "menn": 201543242
+    },
+    "50": {
+        "navn": "Trøndelag",
+      "kvinner": 1450,
+      "menn": 20152
+    },
+    "15": {
+        "navn": "Møre og Romsdal",
+      "kvinner": 1443,
+      "menn": 23152
+    },
+    "11": {
+        "navn": "Rogaland",
+      "kvinner": 7450,
+      "menn": 266152
+    },
+    "42": {
+        "navn": "Agder",
+      "kvinner": 1450,
+      "menn": 20152
+    },
+    "38": {
+        "navn": "Vestfold og Telemark",
+      "kvinner": 1450,
+      "menn": 20152
+    },
+    "30": {
+        "navn": "Viken",
+      "kvinner": 13350,
+      "menn": 25152
+    },
+    "3": {
+        "navn": "Oslo",
+      "kvinner": 1450,
+      "menn": 20152
+    },
+    "34": {
+        "navn": "Innlandet",
+      "kvinner": 1450,
+      "menn": 20152
+    }
+}
