@@ -1,11 +1,5 @@
-var width = Math.max(
-    document.documentElement.clientWidth,
-    window.innerWidth || 0
-  ),
-  height = Math.max(
-    document.documentElement.clientHeight,
-    window.innerHeight || 0
-  );
+var width = document.body.clientWidth;
+height = document.body.clientHeight;
 
 const svg = d3
   .select("body")
@@ -83,8 +77,7 @@ function fylkeInfoBlob(fylke) {
   var kvinner = data[fylke.fylkesnummer].kvinner;
   var menn = data[fylke.fylkesnummer].menn;
   var navn = data[fylke.fylkesnummer].navn;
-  var prosent = (100 / (kvinner + menn)) * kvinner;
-  console.log(prosent);
+
   return `
     <div class="tooltip">
     <h2>${navn}</h2>
@@ -96,6 +89,7 @@ function fylkeInfoBlob(fylke) {
 }
 
 function mouseOver(d) {
+  console.log(d);
   const fylke = d.path[0].__data__.properties;
   d3.select(this)
     .transition()
